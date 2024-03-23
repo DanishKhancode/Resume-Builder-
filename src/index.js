@@ -15,14 +15,7 @@ import { reduxFirestore, getFirestore } from 'redux-firestore'
 import { ReactReduxFirebaseProvider, getFirebase } from 'react-redux-firebase';
 import { createFirestoreInstance } from 'redux-firestore'
 
-const firebaseConfig = {
-  apiKey: "AIzaSyBFOnRtnBthsrqWQRzuee5QMGQUv7uReLg",
-  authDomain: "resume-builder-399c2.firebaseapp.com",
-  projectId: "resume-builder-399c2",
-  storageBucket: "resume-builder-399c2.appspot.com",
-  messagingSenderId: "152029610315",
-  appId: "1:152029610315:web:2b0e9a6597e6ed4c4ca8ce"
-};
+
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
